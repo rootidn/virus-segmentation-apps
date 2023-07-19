@@ -1,0 +1,122 @@
+{
+  "0": {
+    "name": "Adenovirus",
+    "text": "Adenovirus adalah virus DNA yang umum pada hewan dan manusia, sering terjadi pada orang dewasa dan anak-anak. Ada lebih dari 100 jenis adenovirus yang berbeda secara serologis, dengan 49 jenis yang menginfeksi manusia. Virus menginfeksi banyak sistem organ; meskipun, sebagian besar infeksi tidak menunjukkan gejala.",
+    "doi":"https://www.ncbi.nlm.nih.gov/books/NBK559072/",
+    "famili":"Adenoviridae",
+    "characteristics":"linear double-stranded DNA, nonenveloped icosadeltahedral capsid,",
+    "img-url": "./images/viruses/adenovirus.png"
+  },
+  "1": {
+    "name": "Astrovirus",
+    "text": "Astrovirus adalah virus enterik yang pertama kali diidentifikasi dalam tinja anak-anak yang menderita diare. Deteksi awalnya didasarkan pada morfologi bintang berujung lima hingga enam dari virion dengan mikroskop elektron (EM).",
+    "doi":"https://doi.org/10.1016/B978-012374410-4.00348-4",
+    "famili":"Astroviridae",
+    "characteristics":"",
+    "img-url": "./images/viruses/astrovirus.png"
+  },
+  "2": {
+    "name": "CCHF",
+    "text": "Virus demam berdarah Krimea-Kongo (CCHFV) adalah virus yang ditularkan melalui kutu yang menyebabkan penyakit hemoragik parah pada manusia. Genom CCHFV terdiri dari tiga molekul RNA untai tunggal indera negatif, masing-masing dikemas secara terpisah. Partikel virion mengandung RNA polimerase virus (segmen L), glikoprotein permukaan G1 dan G2 (segmen M), dan protein nukleokapsid (N) (segmen S).",
+    "doi":"https://doi.org/10.1128/JCM.00644-06",
+    "famili":"Bunyaviridae",
+    "characteristics":"",
+    "img-url": "./images/viruses/cchf.png"
+  },
+  "3": {
+    "name": "Covid19",
+    "text": "COVID-19 mewakili spektrum manifestasi klinis yang biasanya meliputi demam, batuk kering, dan kelelahan, seringkali dengan keterlibatan paru. SARS-CoV-2 sangat menular dan sebagian besar individu dalam populasi pada umumnya rentan terhadap infeksi. Inang hewan liar dan pasien yang terinfeksi saat ini merupakan sumber utama penyakit yang ditularkan melalui tetesan pernapasan dan kontak langsung.",
+    "doi":"https://doi.org/10.1631/jzus.B2000083",
+    "famili":"Coronaviridae",
+    "characteristics":"",
+    "img-url": "./images/viruses/covid19.png"
+  },
+  "4": {
+    "name": "Cowpox",
+    "text": "Spesies virus cacar sapi (CPXV) adalah anggota yang beragam secara genetik dan polifiletik dari genus Orthopoxvirus (OPV) dalam keluarga Poxviridae. CPXV diduga sebagai penyebab cacar sapi, penyakit zoonosis yang menyebabkan lesi pada ambing sapi perah dan tangan pemerah susu.",
+    "doi":"https://doi.org/10.3390/v9060142",
+    "famili":"Poxviridae",
+    "characteristics":"",
+    "img-url": "./images/viruses/cowpox.png"
+  },
+  "5": {
+    "name": "Ebola",
+    "text": "Penyakit virus Ebola (EVD) adalah penyakit parah dan sering mematikan yang disebabkan oleh virus Ebola (EBOV). Wabah EVD biasanya dimulai dari satu kasus kemungkinan penularan zoonosis, diikuti oleh penularan dari manusia ke manusia melalui kontak langsung atau kontak dengan cairan tubuh yang terinfeksi atau fomit yang terkontaminasi. EVD memiliki tingkat fatalitas kasus yang tinggi; itu ditandai dengan demam, tanda-tanda gastrointestinal dan sindrom disfungsi organ multipel.",
+    "doi":"https://doi.org/10.1038/s41572-020-0147-3",
+    "famili":"Filoviridae",
+    "characteristics":"",
+    "img-url": "./images/viruses/ebola.png"
+  },
+  "6": {
+    "name": "Influenza",
+    "text": "Influenza adalah penyakit akut yang menargetkan saluran pernapasan bagian atas dan menyebabkan peradangan pada saluran pernapasan bagian atas dan trakea. Gejala akut bertahan selama tujuh sampai sepuluh hari, dan penyakit ini sembuh sendiri pada sebagian besar individu yang sehat. Reaksi kekebalan terhadap infeksi virus dan tanggapan interferon bertanggung jawab atas sindrom virus yang meliputi demam tinggi, sakit perut, dan nyeri tubuh.",
+    "doi":"https://www.ncbi.nlm.nih.gov/books/NBK459363",
+    "famili":"Orthomyxoviridae",
+    "characteristics":"",
+    "img-url": "./images/viruses/influenza.png"
+  },
+  "7": {
+    "name": "Lassa",
+    "text": "Virus Lassa adalah virus asam ribonukleat (RNA) negatif beruntai tunggal dari keluarga Arenaviruses (AV). Komponen LASV yang paling menonjol adalah RNA dua segmennya, nukleoprotein (NP), amplop lipid, dan glikoprotein (GP).",
+    "doi":"https://doi.org/10.7759/cureus.14797",
+    "famili":"Arenaviridae",
+    "characteristics":"",
+    "img-url": "./images/viruses/lassa.png"
+  },
+  "8": {
+    "name": "Marburg",
+    "text": "Virus Marburg adalah virus RNA berselubung, tidak tersegmentasi, beruntai tunggal, negatif-sense dalam keluarga filovirus. Marburg telah menyebabkan wabah di Afrika sub-Sahara dan dapat menyebabkan penyakit parah dengan tingkat kematian yang tinggi",
+    "doi":"https://doi.org/10.1016/j.ijid.2020.07.042",
+    "famili":"Filoviridae",
+    "characteristics":"",
+    "img-url": "./images/viruses/marburg.png"
+  },
+  "9": {
+    "name": "Nipah",
+    "text": "Penyakit virus Nipah adalah infeksi zoonosis yang disebabkan oleh virus Nipah (NiV), suatu paramyxovirus yang termasuk dalam genus Henipavirus dari famili Paramyxoviridae. Ini adalah patogen tingkat-4 keamanan hayati, yang ditularkan oleh jenis kelelawar buah tertentu, terutama Pteropus spp. yang merupakan inang reservoir alami. Penyakit ini pertama kali dilaporkan dari desa Kampung Sungai Nipah Malaysia pada tahun 1998. Penularan dari manusia ke manusia juga terjadi.",
+    "doi":"https://doi.org/10.1080/01652176.2019.1580827",
+    "famili":"Paramyxoviridae",
+    "characteristics":"",
+    "img-url": "./images/viruses/nipah.png"
+  },
+  "10": {
+    "name": "Norovirus",
+    "text": "Norovirus, virus RNA dari keluarga Caliciviridae, adalah patogen enterik manusia yang menyebabkan morbiditas substansial di lingkungan perawatan kesehatan dan komunitas. Beberapa faktor meningkatkan penularan norovirus, termasuk inokulum kecil yang diperlukan untuk menghasilkan infeksi (<100 partikel virus), pelepasan virus yang berkepanjangan, dan kemampuannya untuk bertahan hidup di lingkungan.",
+    "doi":"https://doi.org/10.1128/CMR.00075-14",
+    "famili":"Calciviridae",
+    "characteristics":"",
+    "img-url": "./images/viruses/norovirus.png"
+  },
+  "11": {
+    "name": "Orf",
+    "text": "Virus Orf (ORFV) adalah agen etiologi Orf atau ecthyma contagiosum pada manusia tetapi terutama mempengaruhi hewan domestik dan liar yang berbeda. Penyakit ini sebagian besar menyerang domba, kambing, dan ruminansia liar kecil lainnya dan menyebar ke manusia melalui kontak langsung dengan hewan yang terinfeksi atau melalui fomit yang terkontaminasi di seluruh dunia. ORFV secara taksonomi diklasifikasikan sebagai anggota genus Parapoxvirus.",
+    "doi":"https://doi.org/10.2147/RRTM.S306446",
+    "famili":"Poxviridae",
+    "characteristics":"",
+    "img-url": "./images/viruses/orf.png"
+  },
+  "12": {
+    "name": "Papilloma",
+    "text": "Human papillomavirus (HPV) adalah virus DNA sirkular beruntai ganda yang tidak berselubung yang bertanggung jawab untuk menyebabkan beberapa lesi epitel dan kanker. Ini dapat bermanifestasi sebagai kutil kulit dan anogenital, yang tergantung pada subtipenya, dapat berkembang menjadi karsinoma.",
+    "doi":"https://www.ncbi.nlm.nih.gov/books/NBK448132",
+    "famili":"Papillomaviridae",
+    "characteristics":"",
+    "img-url": "./images/viruses/papilloma.png"
+  },
+  "13": {
+    "name": "Rift Valley",
+    "text": "Rift Valley Fever (RVF) adalah penyakit hewan ternak yang parah yang juga menyebabkan penyakit sedang hingga parah pada manusia. Siklus hidup RVF kompleks dan melibatkan nyamuk, ternak, manusia, dan lingkungan. Virus RVF (RVFV) ditularkan dari nyamuk atau hewan ternak ke manusia, tetapi tidak dapat ditularkan dari orang ke orang.",
+    "doi":"https://doi.org/10.1016/j.cll.2017.01.004",
+    "famili":"Bunyaviridae",
+    "characteristics":"",
+    "img-url": "./images/viruses/rift-valley.png"
+  },
+  "14": {
+    "name": "Rotavirus",
+    "text": "Rotavirus adalah virus RNA beruntai ganda (dsRNA) non-envelope yang memiliki arsitektur kompleks dari tiga kapsid konsentris yang mengelilingi genom dari 11 segmen dsRNA. Selain diare, infeksi rotavirus dapat menyebabkan muntah, malaise, dan demam.",
+    "doi":"https://doi.org/10.1038/nrdp.2017.83",
+    "famili":"Reoviridae",
+    "characteristics":"",
+    "img-url": "./images/viruses/rotavirus.png"
+  }
+}
