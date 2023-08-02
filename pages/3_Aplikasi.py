@@ -124,6 +124,10 @@ def run(
         strip_optimizer(weights[0])  # update model (to fix SourceChangeWarning)
     return [im0, class_result, conf_result]
 
+def create_opencv_image_from_stringio(img_stream, cv2_img_flag=0):
+    img_stream.seek(0)
+    img_array = np.asarray(bytearray(img_stream.read()), dtype=np.uint8)
+    return cv2.imdecode(img_array, cv2_img_flag)
 
 st.set_page_config(
   page_title="App - VSA",
@@ -133,7 +137,7 @@ st.title('Aplikasi')
 
 # st.balloons()
 
-st.write("Jika anda tidak mempunyai gambar untuk diprediksi silahkan mengunduh gambar sampel [disini](https://universe.roboflow.com/virussegmentation/virus-segmentation/browse)")
+st.write("Jika anda tidak mempunyai gambar untuk diprediksi silahkan mengunduh gambar sampel [disini](https://drive.google.com/drive/folders/1uePzrABJy68TM4E0kK_jrVlKF7N7lvY9?usp=sharing)")
 conf_number = st.number_input('Masukkan nilai ambang batas', min_value=0.0, max_value=1.0, value=0.6)
 now = datetime.now()
 
@@ -143,9 +147,9 @@ img_files = st.file_uploader(label="Masukkan gambar yang akan diprediksi",
                  )
 for n, img_file_buffer in enumerate(img_files):
     if img_file_buffer is not None:
-        image = Image.open(img_file_buffer)
-        img_array = np.array(image) 
         # Convert RGB to BGR 
+        img_array = create_opencv_image_from_stringio(img_file_buffer)
+        open_cv_image = cv2.cvtColor(img_array, cv2.COLOR_RGB2BGR)
         open_cv_image = cv2.cvtColor(img_array, cv2.COLOR_RGB2BGR)
         # predict
         im0, class_result, conf_result = run(source=open_cv_image, conf_thres=conf_number)
@@ -192,7 +196,7 @@ for n, img_file_buffer in enumerate(img_files):
                     now = datetime.now()
                     dt_string = now.strftime("%d-%m-%Y_%H-%M-%S")
                     st.download_button(
-                        label="Unduh hasil segmentasi",
+                        label="Unduh gambar",
                         data=byte_im,
                         file_name=f'segmentasi_{dt_string}.png',
                         mime='image/png',
