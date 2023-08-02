@@ -150,7 +150,6 @@ for n, img_file_buffer in enumerate(img_files):
         # Convert RGB to BGR 
         img_array = create_opencv_image_from_stringio(img_file_buffer)
         open_cv_image = cv2.cvtColor(img_array, cv2.COLOR_RGB2BGR)
-        open_cv_image = cv2.cvtColor(img_array, cv2.COLOR_RGB2BGR)
         # predict
         im0, class_result, conf_result = run(source=open_cv_image, conf_thres=conf_number)
         if class_result is not None:
