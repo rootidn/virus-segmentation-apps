@@ -27,7 +27,7 @@ from utils.torch_utils import select_device, smart_inference_mode
 @smart_inference_mode()
 def run(
         # weights=ROOT / "runs/train-seg/yolov7-seg7/weights/best.pt",  # model.pt path(s)
-        weights=ROOT / "runs/train-seg/yolov7/best.pt",  # model.pt path(s)
+        weights=ROOT / "runs/train-seg/yolov7/yolov7final/best.pt",  # model.pt path(s)
         source=None,  # opencv image array
         data=ROOT / 'data/coco128.yaml',  # dataset.yaml path
         imgsz=(640, 640),  # inference size (height, width)
